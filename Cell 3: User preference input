@@ -1,0 +1,4 @@
+user_name = "Alice"
+user_data = df[df["User"] == user_name]
+user_preferences = user_data["Category"].unique()
+user_preferences

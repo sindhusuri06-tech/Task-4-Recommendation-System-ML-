@@ -1,0 +1,6 @@
+recommended_items = df[
+    df["Category"].isin(user_preferences) &
+    (df["User"] != user_name)
+]["Item"].unique()
+
+recommended_items

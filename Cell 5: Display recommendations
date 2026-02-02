@@ -1,0 +1,3 @@
+print("Recommended items for", user_name)
+for item in recommended_items:
+    print("-", item)
